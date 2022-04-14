@@ -13,8 +13,11 @@ import retrofit2.adapter.rxjava3.RxJava3CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class NewsClient {
+
     //https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=70bb926a044d4c7aa08668f5ff7c114e
-    //baseUrl:https://newsapi.org/
+
+    //baseUrl:https://newsapi.org/.....
+
     private static final String BASE_URL = "https://newsapi.org/";
     private static Retrofit retrofit;
     private NewsInterface newsInterface;

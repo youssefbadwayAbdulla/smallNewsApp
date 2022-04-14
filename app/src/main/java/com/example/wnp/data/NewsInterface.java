@@ -13,6 +13,6 @@ public interface NewsInterface {
 //    @GET("top-headlines?country=us&category=business&apiKey=70bb926a044d4c7aa08668f5ff7c114e")
 //    Single<List<NewsResponse>> getNews();
     @GET("v2/top-headlines?apiKey=70bb926a044d4c7aa08668f5ff7c114e")
-    Observable<NewsResponse> getNews(@Query("country")String country,
+    Observable <NewsResponse> getNews(@Query("country")String country,
                                            @Query("category")String category);
 }
